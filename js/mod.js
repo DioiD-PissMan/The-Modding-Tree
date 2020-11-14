@@ -1,8 +1,8 @@
 let modInfo = {
-	name: "The ??? Tree",
+	name: "The Historic Tree",
 	id: "mymod",
-	author: "nobody",
-	pointsName: "points",
+	author: "DioiD, the piss guy",
+	pointsName: "intelligence",
 	discordName: "",
 	discordLink: "",
 	changelogLink: "https://github.com/Acamaeda/The-Modding-Tree/blob/master/changelog.md",
