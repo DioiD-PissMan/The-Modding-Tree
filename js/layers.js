@@ -1,6 +1,6 @@
 addLayer("p", {
     name: "Early Man", // This is optional, only used in a few places, If absent it just uses the layer id.
-    symbol: "E", // This appears on the layer's node. Default is the id with the first letter capitalized
+    symbol: "C", // This appears on the layer's node. Default is the id with the first letter capitalized
     position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
     startData() { return {
         unlocked: true,
@@ -54,4 +54,24 @@ addLayer("p", {
             title: "Love"
         }
     }
+})
+addLayer("e", {
+    name: "Egyptians",
+    symbol: "E",
+    position: 0,
+    color: "#c2b280",
+    requires: new Decimal(10,000),
+    resource: Egyptian,
+    baseResource:"Cavemen",
+    baseAmount(){return player.points},
+    type: "static",
+    exponent: 0.45,
+    gainMult() {
+        mult = new Decimal(1.5)
+        return mult
+    },
+    gainExp() {
+        return new Decimal(1)
+    },
+    row: 1
 })
