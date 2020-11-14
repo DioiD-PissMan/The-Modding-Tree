@@ -73,5 +73,6 @@ addLayer("e", {
     gainExp() {
         return new Decimal(1)
     },
-    row: 1
+    row: 1,
+    layerShown(){return true},
 })
