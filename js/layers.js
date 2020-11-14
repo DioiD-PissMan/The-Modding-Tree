@@ -26,7 +26,7 @@ addLayer("p", {
     ],
     layerShown(){return true},
     upgrades: {
-        rows: 1,
+        rows: 2,
         cols: 5,
         11: {
             description: "Your cavemen invent fire, so get intelligence twice as fast",
