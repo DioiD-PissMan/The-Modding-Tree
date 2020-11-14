@@ -6,15 +6,15 @@ let modInfo = {
 	discordName: "",
 	discordLink: "",
 	changelogLink: "https://github.com/Acamaeda/The-Modding-Tree/blob/master/changelog.md",
-	initialStartPoints: new Decimal (10), // Used for hard resets and new players
+	initialStartPoints: new Decimal (5), // Used for hard resets and new players
 	
 	offlineLimit: 1,  // In hours
 }
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.1",
-	name: "The birth, of dogshit",
+	num: "0.11",
+	name: "an actual game",
 }
 
 // If you add new functions anywhere inside of a layer, and those functions have an effect when called, add them here.
@@ -38,7 +38,7 @@ function getPointGen() {
 	let gain = new Decimal(1)
 	if(hasUpgrade("p",11)) gain = gain.mul(2)
 	if(hasUpgrade("p",12)) gain = gain.mul(2.5)
-	if(hasUpgrade("p",13)) gain = gain.mul(1.01*points)
+	if(hasUpgrade("p",13)) gain = gain.mul(3)
 	if(hasUpgrade("p",14)) gain = gain.mul(10)
 	return gain
 }

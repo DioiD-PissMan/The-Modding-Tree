@@ -7,7 +7,7 @@ addLayer("p", {
 		points: new Decimal(0),
     }},
     color: "#D2691E",
-    requires: new Decimal(10), // Can be a function that takes requirement increases into account
+    requires: new Decimal(5), // Can be a function that takes requirement increases into account
     resource: "Cavemen", // Name of prestige currency
     baseResource: "intellegence", // Name of resource prestige is based on
     baseAmount() {return player.points}, // Get the current amount of baseResource
@@ -37,7 +37,7 @@ addLayer("p", {
             cost: new Decimal(3)
         },
         13: {
-            description: "Wow, those cavemen are starting to hunt in pairs, this means you get more food, and increase your intelligence gain overtime, depending on your intelligence",
+            description: "Wow, those cavemen are starting to hunt in pairs, this means you get more intelligence, particulary, a 3x multiplier",
             cost: new Decimal(10)
         },
         14: {
