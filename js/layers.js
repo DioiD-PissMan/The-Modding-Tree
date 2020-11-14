@@ -24,5 +24,13 @@ addLayer("p", {
     hotkeys: [
         {key: "E", description: "Become stupider, but gain Cavemen", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
-    layerShown(){return true}
+    layerShown(){return true},
+    upgrades: {
+        rows: 1,
+        cols: 1,
+        11: {
+            description: "You invent fire, so get intelligence twice as fast",
+            cost: new Decimal(1)
+        }
+    }
 })
