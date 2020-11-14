@@ -59,25 +59,24 @@ addLayer("p", {
             title: Leader
         },
         22: {
-            description: "You must learn to kill to survive, making tools and gaining 1.1x intelligence",
+            description: "You must learn to kill to survive, making tools and gaining 4x intelligence",
             cost: new Decimal(666),
             title: Tools
         },
         23: {
             decription: "Bathe in the blood of your enemies, gaining 2.1x intelligence, but feeling dead inside",
-            cost: new Decimal(2000),
+            cost: new Decimal(1000),
             title: Death
         },
         24: {
             description: "This brown metal looks interesting, but does'nt do much, still, gain 1.5x intelligence",
-            cost: new Decimal(3000),
+            cost: new Decimal(2000),
             title: Bronze
         },
         25: {
             descripton: "Alot of people are starting to evolve, gain 2x intelligence, and prepare for advancement",
-            cost: new Decimal(3333),
+            cost: new Decimal(2222),
             title: Evolve
         }
-
     }
 })
