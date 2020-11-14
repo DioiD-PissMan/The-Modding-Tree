@@ -27,10 +27,15 @@ addLayer("p", {
     layerShown(){return true},
     upgrades: {
         rows: 1,
-        cols: 1,
+        cols: 2,
         11: {
             description: "You invent fire, so get intelligence twice as fast",
             cost: new Decimal(1)
+        },
+        12: {
+            description: "Your cavemen are somehow getting smarter and invent a wheel of stone, further multiplying your intelligence gain by 2.5",
+            cost: new Decimal(3)
+
         }
     }
 })
