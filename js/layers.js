@@ -14,8 +14,7 @@ addLayer("p", {
     type: "normal", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
     exponent: 0.5, // Prestige currency exponent
     gainMult() { // Calculate the multiplier for main currency from bonuses
-        mult = new Decimal(1)
-        if(hasUpgrade("p",22)) gain = gain.mul(3)    
+        mult = new Decimal(1) 
         return mult
     },
     gainExp() { // Calculate the exponent on main currency from bonuses
@@ -60,24 +59,24 @@ addLayer("p", {
             title: "Knowledge"
         },
         22: {
-            description: "Thats a good looking house, it also gives you 3x the caveman",
+            description: "Thats a good looking house, it also gives you 3x the knowledge",
             cost: new Decimal(1500),
             title: "Construction"
         },
         23: {
-            description: "Placeholder",
-            cost: new Decimal(69420),
-            title: "Not now"
+            description: "Lets put those houses together, make a village, and get 1.1x intelligence",
+            cost: new Decimal(5000),
+            title: "Village"
         },
         24: {
-            description: "Placeholder",
-            cost: new Decimal(69420),
-            title: "Not now"
+            description: "Take down a wooly mammoth,and get the same reward as Knowledge, but at a vastly reduced rate",
+            cost: new Decimal(10000),
+            title: "Triumph"
         },
         25: {
-            description: "Placeholder",
-            cost: new Decimal(69420),
-            title: "Not now"
+            description: "Learn ho to move alot more, ripping off DI, and unlocking the next layer",
+            cost: new Decimal(15000),
+            title: "Travel"
         }
     }
 })
