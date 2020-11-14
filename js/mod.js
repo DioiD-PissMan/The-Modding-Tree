@@ -13,8 +13,8 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.11",
-	name: "an actual game",
+	num: "0.12",
+	name: "Cavemen, and thats it",
 }
 
 // If you add new functions anywhere inside of a layer, and those functions have an effect when called, add them here.
