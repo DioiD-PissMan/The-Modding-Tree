@@ -60,23 +60,22 @@ addLayer("p", {
         },
         22: {
             description: "Thats a good looking house, it also gives you 3x the knowledge",
-            cost: new Decimal(1500),
+            cost: new Decimal(500),
             title: "Construction"
         },
         23: {
             description: "Lets put those houses together, make a village, and get 1.1x intelligence",
-            cost: new Decimal(5000),
+            cost: new Decimal(750),
             title: "Village"
         },
         24: {
-            description: "Take down a wooly mammoth,and get the same reward as Knowledge, but at a vastly reduced rate",
-            cost: new Decimal(10000),
+            description: "Take down a wooly mammoth,and get 2.5x knowledge",
+            cost: new Decimal(1000),
             title: "Triumph"
         },
         25: {
-            description: "Learn ho to move alot more, ripping off DI, and unlocking the next layer",
-            cost: new Decimal(15000),
+            description: "Learn to move alot more, ripping off DI, and unlocking the next layer",
+            cost: new Decimal(1500),
             title: "Travel"
-        }
     }
-})
+}})

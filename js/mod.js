@@ -44,7 +44,7 @@ function getPointGen() {
 	if(hasUpgrade("p",21)) gain = gain.mul(player.points.cbrt()).max(1)
 	if(hasUpgrade("p",22)) gain = gain.mul(3)
 	if(hasUpgrade("p",23)) gain = gain.mul(1.1)
-	if(hasUpgrade("p",24)) gain = gain.mul(player.points.log10()).max(1)
+	if(hasUpgrade("p",24)) gain = gain.mul(2.5)
 	return gain
 }
 
