@@ -40,17 +40,17 @@ addLayer("p", {
         },
         13: {
             description: "Wow, those cavemen are starting to hunt in pairs, this means you get more intelligence, particulary, a 3x multiplier",
-            cost: new Decimal(10),
+            cost: new Decimal(25),
             title: "Hunting"
         },
         14: {
-            description: "Your cavemen are helping eachother, inventing friendship, and multiplying intelligence gain by 10! (friendship is magic)",
-            cost: new Decimal(35),
+            description: "Your cavemen are becoming friends, and multiplying intelligence gain by 10! (friendship is magic)",
+            cost: new Decimal(100),
             title: "Teamwork"
         },
         15: {
-            description: "Your cavemen are, lets just say doing things I cant mention in a prestige tree mod, and you get twice as many caveman because of it",
-            cost: new Decimal(50),
+            description: "Your cavemen are loving each other alot and you get twice te intelligence because of it",
+            cost: new Decimal(200),
             title: "Love"
         }
     }

@@ -40,6 +40,7 @@ function getPointGen() {
 	if(hasUpgrade("p",12)) gain = gain.mul(2.5)
 	if(hasUpgrade("p",13)) gain = gain.mul(3)
 	if(hasUpgrade("p",14)) gain = gain.mul(10)
+	if(hasUpgrade("p",15)) gain = gain.mul(2)
 	return gain
 }
 
