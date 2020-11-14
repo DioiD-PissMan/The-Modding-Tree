@@ -60,7 +60,7 @@ addLayer("e", {
     symbol: "E",
     position: 0,
     color: "#c2b280",
-    requires: new Decimal(10,000),
+    requires: new Decimal(1,000),
     resource: Egyptian,
     baseResource:"Cavemen",
     baseAmount(){return player.points},
