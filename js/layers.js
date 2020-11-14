@@ -45,34 +45,18 @@ addLayer("p", {
         },
         14: {
             description: "Your cavemen are becoming friends, and multiplying intelligence gain by 10! (friendship is magic)",
-            cost: new Decimal(100),
+            cost: new Decimal(75),
             title: "Teamwork"
         },
         15: {
             description: "Your cavemen are loving each other alot and you get twice te intelligence because of it",
-            cost: new Decimal(200),
+            cost: new Decimal(150),
             title: "Love"
+        },
+        21: {
+            description: "The cavemen are learning to write, getting more intelligence based of your intelligence!",
+            cost: new Decimal(225),
+            title: "Knowledge"
         }
     }
-})
-addLayer("e", {
-    name: "Egyptians",
-    symbol: "E",
-    position: 0,
-    color: "#c2b280",
-    requires: new Decimal(1,000),
-    resource: Egyptian,
-    baseResource:"Cavemen",
-    baseAmount(){return player.points},
-    type: "static",
-    exponent: 0.45,
-    gainMult() {
-        mult = new Decimal(1.5)
-        return mult
-    },
-    gainExp() {
-        return new Decimal(1)
-    },
-    row: 1,
-    layerShown(){return true},
 })
