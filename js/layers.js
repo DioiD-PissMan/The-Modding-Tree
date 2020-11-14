@@ -35,7 +35,10 @@ addLayer("p", {
         12: {
             description: "Your cavemen are somehow getting smarter and invent a wheel of stone, further multiplying your intelligence gain by 2.5",
             cost: new Decimal(3)
-
+        },
+        13: {
+            description: "Wow, those cavemen are starting to hunt in pairs, this means you get more food, and increase your intelligence gain overtime, depending on your intelligence",
+            cost: new Decimal(10)
         }
     }
 })
