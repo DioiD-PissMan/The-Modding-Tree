@@ -27,9 +27,9 @@ addLayer("p", {
     layerShown(){return true},
     upgrades: {
         rows: 1,
-        cols: 2,
+        cols: 5,
         11: {
-            description: "You invent fire, so get intelligence twice as fast",
+            description: "Your cavemen invent fire, so get intelligence twice as fast",
             cost: new Decimal(1)
         },
         12: {
@@ -39,6 +39,14 @@ addLayer("p", {
         13: {
             description: "Wow, those cavemen are starting to hunt in pairs, this means you get more food, and increase your intelligence gain overtime, depending on your intelligence",
             cost: new Decimal(10)
+        },
+        14: {
+            description: "Your cavemen are helping eachother, inventing friendship, and multiplying intelligence gain by 10! (friendship is magic)",
+            cost: new Decimal(35)
+        },
+        15: {
+            description: "Your cavemen are, lets just say doing things I cant mention in a prestige tree mod, and you get twice as many caveman because of it",
+            cost: new Decimal(50)
         }
     }
 })
