@@ -57,6 +57,26 @@ addLayer("p", {
             description: "The cavemen are learning to write, getting more intelligence based of your intelligence!",
             cost: new Decimal(225),
             title: "Knowledge"
+        },
+        22: {
+            description: "Placeholder",
+            cost: new Decimal(69420),
+            title: "Not now"
+        },
+        23: {
+            description: "Placeholder",
+            cost: new Decimal(69420),
+            title: "Not now"
+        },
+        24: {
+            description: "Placeholder",
+            cost: new Decimal(69420),
+            title: "Not now"
+        },
+        25: {
+            description: "Placeholder",
+            cost: new Decimal(69420),
+            title: "Not now"
         }
     }
 })
