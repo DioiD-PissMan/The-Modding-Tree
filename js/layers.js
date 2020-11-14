@@ -26,7 +26,7 @@ addLayer("p", {
     ],
     layerShown(){return true},
     upgrades: {
-        rows: 1,
+        rows: 2,
         cols: 5,
         11: {
             description: "Your cavemen invent fire, so get intelligence twice as fast",
@@ -44,15 +44,14 @@ addLayer("p", {
             title: "Hunting"
         },
         14: {
-            description: "Your cavemen are helping eachother, inventing friendship, and multiplying intelligence gain by 10! (friendship is magic)",
-            cost: new Decimal(35),
+            description: "Your cavemen are helping eachother, being pals, and multiplying intelligence gain by 5!",
+            cost: new Decimal(50),
             title: "Teamwork"
         },
         15: {
-            description: "Your cavemen are, lets just say doing things I cant mention in a prestige tree mod, and you get twice as many caveman because of it",
-            cost: new Decimal(50),
+            description: "Your cavemen are, lets just say in deep love, and learn how to love, so you get 3x more intelligence!",
+            cost: new Decimal(200),
             title: "Love"
-<<<<<<< HEAD
         },
         21: {
             description: "This caveman is better then the others, so he becomes leader! Oh yeah gain 1.5x more intelligence.",
@@ -78,8 +77,6 @@ addLayer("p", {
             descripton: "Alot of people are starting to evolve, gain 2x intelligence, and prepare for advancement",
             cost: new Decimal(2222),
             title: Evolve
-=======
->>>>>>> parent of eca2753... Finished?
         }
     }
 })
